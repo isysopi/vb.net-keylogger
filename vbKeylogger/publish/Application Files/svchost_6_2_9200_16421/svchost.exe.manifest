@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="svchost.exe" version="6.2.9200.16421" publicKeyToken="392da18bdcb6afbc" language="neutral" processorArchitecture="x86" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="svchost" version="6.2.9200.16420" language="neutral" processorArchitecture="x86" />
+    <commandLine file="svchost.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet version="1" class="System.Security.NamedPermissionSet" Name="LocalIntranet" Description="Default rights given to applications on the local intranet" Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!-- UAC Manifest Options
+            If you want to change the Windows User Account Control level replace the 
+            requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+            Specifying requestedExecutionLevel node will disable file and registry virtualization.
+            If you want to utilize File and Registry Virtualization for backward 
+            compatibility then delete the requestedExecutionLevel node.
+        -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="svchost.exe" size="398336">
+      <assemblyIdentity name="svchost" version="6.2.9200.16420" language="neutral" processorArchitecture="x86" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>bQL/8H8jJXn08H/kljpZpbslKBM=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <compatibility xmlns="urn:schemas-microsoft-com:compatibility.v1">
+    <application>
+      <!-- A list of all Windows versions that this application is designed to work with. Windows will automatically select the most compatible environment.-->
+      <!-- If your application is designed to work with Windows 7, uncomment the following supportedOS node-->
+      <!--<supportedOS Id="{35138b9a-5d96-4fbd-8e2d-a2440225f93a}"/>-->
+    </application>
+  </compatibility>
+<publisherIdentity name="CN=CATARACT\Rhys Cable" issuerKeyHash="786910d73c035780f0d84cc535136bf3478d0ed5" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>IDsTLPbNkdBzZdSzPDXxdY5o4Tc=</DigestValue></Reference></SignedInfo><SignatureValue>kCKjVrcxfeVSLhHSdMREM+3CqZAPJ10qugz7DuN9HnLlr/IFXBN9JFQOcujnga984M81pTutqvxkhlEGC0b15jQwn3tQcdikAyIA1VVSyHgi1hI+lest5V2c2A3H5EJqaSXJlne47GGS/Iyk05e8YsXLLXiwoInCnHgXZSggXuQ=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>7tPO2D22gRV4nqQJnpiqjDhVYgipwXDF5pa7ecfBmnQnumk616N6SvzRFch6UkxautF32bU8B07Puov6NxFEHm1BNyziF6uoU+lAByzgu52M5UiD7HrI58i0t2+1z+360m5rIiksu3PLiz5PoVXlThYydPWYVtJW14Mb+KCmpPU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="37e1688e75f1353cb3d46573d091cdf62c133b20" Description="" Url=""><as:assemblyIdentity name="svchost.exe" version="6.2.9200.16421" publicKeyToken="392da18bdcb6afbc" language="neutral" processorArchitecture="x86" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=CATARACT\Rhys Cable</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>GB310f2IYn9/lr7LPdmw34SEGZs=</DigestValue></Reference></SignedInfo><SignatureValue>l84V6PJ21Cvq2r5cbqa0PeJ5qw01kHrr6IMr/+BPj1/GjrN3EWTqIbai7KKHUfCNzmjzcVGSBWp8CfqDWAJdTykaFIN9UEaoovKmczMW43Ic8aoELn6VZUMTTcqF1Bg4v82Vp/RfFBJqRY1d/t07BzNi2CCrtYdIoOevnJYqJp0=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>7tPO2D22gRV4nqQJnpiqjDhVYgipwXDF5pa7ecfBmnQnumk616N6SvzRFch6UkxautF32bU8B07Puov6NxFEHm1BNyziF6uoU+lAByzgu52M5UiD7HrI58i0t2+1z+360m5rIiksu3PLiz5PoVXlThYydPWYVtJW14Mb+KCmpPU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB5TCCAU6gAwIBAgIQeUiwZr1ZHKJFFIvGVjyu0zANBgkqhkiG9w0BAQUFADAxMS8wLQYDVQQDHiYAQwBBAFQAQQBSAEEAQwBUAFwAUgBoAHkAcwAgAEMAYQBiAGwAZTAeFw0xMzA4MjUwODA2NTRaFw0xNDA4MjUxNDA2NTRaMDExLzAtBgNVBAMeJgBDAEEAVABBAFIAQQBDAFQAXABSAGgAeQBzACAAQwBhAGIAbABlMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDu087YPbaBFXiepAmemKqMOFViCKnBcMXmlrt5x8GadCe6aTrXo3pK/NEVyHpSTFq60XfZtTwHTs+6i/o3EUQebUE3LOIXq6hT6UAHLOC7nYzlSIPsesjnyLS3b7XP7frSbmsiKSy7c8uLPk+hVeVOFjJ09ZhW0lbXgxv4oKak9QIDAQABMA0GCSqGSIb3DQEBBQUAA4GBAJmcVSX8fG+wD5ZOZbsLW2NYJqL6Wsa8BRVW1d09+lx7oPK5rcnzzY0kNhw2hJHqF5ICxoCsGi5trliiuKOp2SPwlSYkyqwBElGn4Ril7PS+pc23r04JXWJ41878X+9+TxlXdrtcU7aocqFYfQj7dAk5dvwuueoLbTjzgUvqB/BU</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
